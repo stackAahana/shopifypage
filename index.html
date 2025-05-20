@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Product Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="product-page">
+    <!-- Product Images Gallery -->
+    <section class="product-gallery">
+      <div class="main-image">
+        <img id="mainProductImage" src="assets/images/product1.jpg" alt="Main Product">
+      </div>
+      <div class="thumbnails">
+        <img src="assets/images/product1.jpg" alt="Thumbnail" class="thumbnail">
+        <img src="assets/images/product2.jpg" alt="Thumbnail" class="thumbnail">
+        <img src="assets/images/product8.jpg" alt="Thumbnail" class="thumbnail">
+        <img src="assets/images/product5.webp" alt="Thumbnail" class="thumbnail">
+      </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="product-details">
+      <h1>Premium Cotton T-Shirt</h1>
+      <p class="price">₹999</p>
+
+      <!-- Color Swatches -->
+      <div class="colors">
+        <label>Colors:</label>
+        <img src="assets/images/swatch-red1.jpeg" class="color-swatch" data-img="swatch-red1.jpeg" alt="Red">
+        <img src="assets/images/swatch-blue.webp" class="color-swatch" data-img="swatch-blue.webp" alt="Blue">
+        <img src="assets/images/swatch-green1.webp" class="color-swatch" data-img="swatch-green1.webp" alt="Green">
+      </div>
+
+      <!-- Size Dropdown -->
+      <div class="sizes">
+        <label for="sizeSelect">Size:</label>
+        <select id="sizeSelect">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select>
+        <button id="sizeChartBtn">Size Chart</button>
+      </div>
+
+      <!-- Compare Colors -->
+      <button id="compareColorsBtn">Compare Colours</button>
+    </section>
+    <!-- Tabs Section -->
+    <section class="tabs">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="desc">Description</button>
+        <button class="tab-btn" data-tab="info">Product Information</button>
+        <button class="tab-btn" data-tab="shipping">Shipping Details</button>
+      </div>
+      <div class="tab-content" id="desc">
+        <p>
+White printed cotton T-shirt for men with a clean, minimal silhouette. Designed with subtle red, green, and blue color detailing for a pop of vibrancy. This casual tee features a classic round neck, short sleeves, and a regular fit, making it perfect for everyday wear.
+Features
+Soft, breathable 100% cotton fabric
+Round neckline with reinforced ribbed detailing
+Color accents: red, green, and blue on front and sleeve trims
+Short sleeves with straight hem
+Lightweight and comfortable fit for all-day wear
+Fit & Style
+Regular Fit
+Suitable for casual outings, weekend hangouts, or relaxed office settings
+Pairs effortlessly with jeans, joggers, or chinos
+Material & Care
+Pure Cotton
+Machine wash cold with like colors
+Do not bleach
+Tumble dry low or line dry
+Iron inside out if needed
+Style Tip
+Team this T-shirt with light-wash ripped jeans and white sneakers for a relaxed streetwear look. Throw on a denim jacket for added flair.</p>
+      </div>
+      <div class="tab-content hidden" id="info">
+        <p></p>
+Name: Men's White Cotton T-Shirt with Multi-Color Accents
+Color: White with Red, Green & Blue detailing
+Fit: Regular Fit
+Neck: Round Neck
+Sleeves: Short Sleeves
+Length: Regular
+Pattern: Solid base with minimal color accents
+Material: 100% Cotton
+Fabric Type: Bio-washed cotton for softness and durability
+Occasion: Casual, Everyday Wear
+Style Code: MCT-WhiteMulti23</p>
+      </div>
+      <div class="tab-content hidden" id="shipping">
+        <p>
+Delivery Time: Usually delivered in 3 to 6 business days
+
+Shipping Charges: Free shipping on orders above ₹499
+
+Cash on Delivery (COD): Available
+
+Return Policy: Easy 7-day return or exchange
+
+Order Tracking: Track your order via the "My Orders" section
+
+Dispatched By: Within 24 to 48 hours of order confirmation
+
+Delivered By: Trusted delivery partners across India
+
+Packaging: Secure, tamper-proof packaging to ensure product safety</p>
+      </div>
+    </section>
+
+    <!-- Pair Well With -->
+    <section class="pair-well">
+      <h2>Pair Well With</h2>
+      <div class="product-carousel">
+        <div class="product-card">
+          <img src="assets/images/pair1.jpeg" alt="Pair Product">
+          <p>Titan Watch</p>
+          <p>₹1999</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/pair2.jpeg" alt="Pair Product">
+          <p>Denim Jeans</p>
+          <p>₹1299</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/pair3.jpeg" alt="Pair Product">
+          <p>Canvas Shoes</p>
+          <p>₹1499</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Bundle -->
+    <section class="bundle">
+      <h2>Buy These Together</h2>
+      <div class="bundle-items">
+        <div class="bundle-product">
+          <img src="assets/images/bundle1.jpeg" alt="Bundle Item">
+          <p>Classy Cap</p>
+          <p>₹799</p>
+        </div>
+        <div class="bundle-product">
+          <img src="assets/images/bundle2.jpeg" alt="Bundle Item">
+          <p>Sporty Socks</p>
+          <p>₹699</p>
+        </div>
+      </div>
+      <p>Total: ₹1498</p>
+      <button>Add Bundle to Cart</button>
+    </section>
+
+    
+
+    <!-- Related Products -->
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="assets/images/related1.jpeg" alt="Related">
+          <p>Oversized Hoodie <span class="badge">New</span></p>
+          <p>₹1299</p>
+           <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/related2.jpeg" alt="Related">
+          <p>Graphic Tee</p>
+          <p>₹899</p>
+           <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/related3.jpeg" alt="Related">
+          <p>Sleeveless Tee <span class="badge">Popular</span></p>
+          <p>₹1199</p>
+           <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/related4.jpeg" alt="Related">
+          <p>Checked Polo Tee</p>
+          <p>₹999</p>
+           <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Size Chart Modal -->
+  <div class="modal" id="sizeChartModal">
+    <div class="modal-content">
+      <span class="close" id="closeSizeChart">&times;</span>
+      <img src="assets/images/size-chart1.jpeg" alt="Size Chart">
+    </div>
+  </div>
+
+  <!-- Compare Colours Modal -->
+  <div class="modal" id="compareColorsModal">
+    <div class="modal-content">
+      <span class="close" id="closeCompareColors">&times;</span>
+      <div class="color-compare">
+        <img src="assets/images/swatch-red1.jpeg" alt="Red">
+        <img src="assets/images/swatch-blue.webp" alt="Blue">
+        <img src="assets/images/swatch-green1.webp" alt="Green">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
