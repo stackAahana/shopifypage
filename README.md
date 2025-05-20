@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shopify Product App (Vanilla JS)
 
 ## 🛍️ Overview
@@ -26,3 +27,6 @@ A fully responsive Shopify-style product page built with HTML, CSS, and JavaScri
 index.html 
 ->assets
    ->images     
+=======
+# shopifypage
+>>>>>>> 396252d3b9929082ab39ed6e62e23608d427db28
